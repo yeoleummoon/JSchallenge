@@ -24,6 +24,7 @@ body {
   justify-content: center;
   background-color: #e6e6fa;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .hidden {
