@@ -1,0 +1,347 @@
+@font-face {
+  font-family: 'SBAggroB';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SBAggroM';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroM.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SBAggroL';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroL.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #e6e6fa;
+}
+
+.hidden {
+  display: none;
+}
+
+#loginform{
+  width: 500px;
+  height: 500px;
+  border-radius: 15px;
+  background-color: white;
+  margin: 250px auto;
+  box-shadow:  0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+#loginform_menu {
+  display: flex;
+  align-items: center;
+  width: 500px;
+  height: 60px;
+  background-color: #333;
+  border-radius: 15px 15px 0 0;
+}
+
+#loginform_menu span {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+#loginform_menu span:nth-child(1){
+  margin-left: 30px;
+  background-color: #fa8072;
+}
+
+#loginform_menu span:nth-child(2) {
+  margin: 0 10px;
+  background-color: #ffa500;
+}
+
+#loginform_menu span:nth-child(3) {
+  background-color: #32cd32;
+}
+
+
+#loginform_input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+#loginform_input h2{
+  margin-top: 80px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 30px;
+  color: #333;
+  font-family: 'SBAggroL';
+}
+
+#loginform_input #logininput {
+width: 300px;
+height: 40px;
+font-size: 25px;
+font-family: 'SBAggroL';
+text-align: center;
+margin-top: 40px;
+background-color: transparent;
+outline: none;
+border-top: none;
+border-left: none;
+border-right: none;
+border-bottom: 1px solid #555;
+}
+
+#loginform_input #loginbtn {
+  width: 120px;
+  height: 60px;
+  margin-top: 40px;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  font-family: 'SBAggroM';
+  border-radius: 50px;
+  border: 0 solid;
+  background-color: #333;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+#loginform_input #loginbtn:active {
+  transform: scale(0.97);
+  background-color: white;
+  color: #333;
+  transition: all 0.2s;
+}
+
+/* login page */
+
+#mainpage {
+  width: 1400px;
+  height: 870px;
+  margin-top: 50px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+#mainpage #mainpage_menu {
+  display: flex;
+  align-items: center;
+  width: 1400px;
+  height: 60px;
+  background-color: #333;
+  border-radius: 20px 20px 0 0;
+}
+
+#mainpage #mainpage_menu span {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+#mainpage #mainpage_menu span:nth-child(1){
+  margin-left: 30px;
+  background-color: #fa8072;
+}
+
+#mainpage #mainpage_menu span:nth-child(2) {
+  margin: 0 10px;
+  background-color: #ffa500;
+}
+
+#mainpage #mainpage_menu span:nth-child(3) {
+  background-color: #32cd32;
+}
+
+/* maingpage_menu */
+.mainpage_form {
+  display: flex;
+  flex-direction: row;
+}
+
+.mainpage_left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 470px;
+  height: 770px;
+  padding-bottom: 40px;
+  background-color: #debaff;
+  border-radius: 0 0 0 20px;
+}
+
+#mainpage #mainpage_profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 270px;
+  margin-top: 60px;
+  border-radius: 50%;
+}
+
+#mainpage #mainpage_profile img {
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+/* mainpage_profile */
+
+#mainpage .mainpage_left h2 {
+  width: 360px;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'SBAggroL';
+  margin-top: 80px;
+  color: #333;
+}
+
+/* mainpage_loginname */
+
+#mainpage #mainpage_calender {
+  font-size: 27px;
+  margin-top: 17px;
+  color: #333;
+  font-family: 'SBAggroL';
+}
+
+#mainpage #mainpage_clock{
+  width: 265px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  color: slateblue;
+  text-shadow: 3px 3px 3px lavender;
+}
+
+/* mainpage_clock_calender */
+
+.mainpage_center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 560px;
+  height: 770px;
+  padding-bottom: 40px;
+}
+
+.mainpage_center h2 {
+  font-size: 35px;
+  margin-top: 90px;
+  font-family: 'SBAggroB';
+  color: #333;
+}
+
+
+.mainpage_center #todo-form input {
+  width: 350px;
+  height: 40px;
+  font-size: 25px;
+  font-family: 'SBAggroL';
+  background-color: transparent;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #555;
+}
+
+.mainpage_center #todo-list li {
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'SBAggroL';
+}
+
+.mainpage_center #todo-list button {
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.mainpage_center #todo-list button:active {
+  transform: scale(0.95);
+}
+
+.mainpage_center #todo-list button:first-child {
+  margin-left: 100px;
+}
+
+/* mainpage_todolist */
+
+
+.mainpage_right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 370px;
+  height: 770px;
+  padding-bottom: 40px;
+  border-radius: 0 0 20px 0;
+}
+
+.mainpage_right #d-day{
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+  margin-top: 160px;
+  box-shadow: 0 4px 6px lavender, 0 1px 3px lavender;
+}
+
+.mainpage_right #d-day div {
+  height: 70px;
+  line-height: 75px;
+  text-align: center;
+  font-size: 23px;
+  color: #333;
+  font-weight: bold;
+  font-family: 'SBAggroM';
+  background-color: #debaff;
+  border-radius: 20px 20px 0 0;
+}
+
+.mainpage_right #d-day #newyear {
+  font-size: 23px;
+  font-weight: bold;
+  font-family: 'SBAggroM';
+  margin-top: 65px;
+  text-align: center;
+  color: slateblue;
+}
+
+/* mainpage_countdown */
+
+.mainpage_right #weather {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 120px;
+  border-radius: 20px;
+  margin-top: 30px;
+  box-shadow: 0 4px 6px lavender, 0 1px 3px lavender;
+}
+
+.mainpage_right #weather span {
+  font-size: 20px;
+  color: #333;
+  font-family: 'SBAggroM';
+}
+
+.mainpage_right #weather img {
+  width: 100px;
+  height: 100px;
+}
+

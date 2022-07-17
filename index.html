@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <script defer src="./js/clock.js"></script>
+  <script defer src="./js/login.js"></script>
+  <script defer src="./js/profile.js"></script>
+  <script defer src="./js/todo.js"></script>
+  <script defer src="./js/countdown.js"></script>
+  <script defer src="./js/weather.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <form id="loginform" class="hidden">
+    <div id="loginform_menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div id="loginform_input">
+      <h2></h2>
+      <input id="logininput" type="text" maxlength="10" placeholder="Write your name" required></input>
+      <input id="loginbtn" type="submit" value="ENTER"></input>
+    </div>
+  </form>
+  <!-- loginForm -->
+  <div id="mainpage" class="hidden">
+    <div id="mainpage_menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <!-- main menu -->
+    <div class="mainpage_form">
+      <div class="mainpage_left">
+        <div id="mainpage_profile"></div>
+        <h2>hello</h2>
+        <div id="mainpage_calender">0월0일(목)</div>
+        <div id="mainpage_clock">00:00:00</div>
+      </div>
+    <!-- mainpage_left -->
+      <div class="mainpage_center">
+        <h2></h2>
+        <form id="todo-form">
+          <input type="text" maxlength="20" required />
+        </form>
+        <ul id="todo-list"></ul>
+      </div>
+    <!-- mainpage_center -->
+      <div class="mainpage_right">
+        <div id="d-day">
+          <div></div>
+          <h3 id="newyear"></h3>
+        </div>
+        <div id="weather">
+          <span></span>
+          <img />
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- mainpage -->
+</body>
+</html>
