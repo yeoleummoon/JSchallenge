@@ -23,6 +23,7 @@ body {
   display: flex;
   justify-content: center;
   background-color: #e6e6fa;
+  overflow-x: hidden;
 }
 
 .hidden {
@@ -125,7 +126,6 @@ border-bottom: 1px solid #555;
 #mainpage {
   width: 1400px;
   height: 870px;
-  margin-top: 50px;
   background-color: white;
   border-radius: 20px;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
