@@ -2,7 +2,7 @@ const dDayForm = document.querySelector("#d-day");
 const dDayTitle = document.querySelector("#d-day div");
 const dDayOne = dDayForm.querySelector("#newyear");
 
-dDayTitle.innerText = "COUNTDOWN";
+dDayTitle.innerText = "D-DAY";
 
 
 function countDown(){
