@@ -129,8 +129,6 @@ border-bottom: 1px solid #555;
 
 #loginform_input #loginbtn:active {
   transform: scale(0.97);
-  background-color: white;
-  color: #333;
   transition: all 0.2s;
 }
 

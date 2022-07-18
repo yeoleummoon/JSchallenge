@@ -1,6 +1,7 @@
 const loginForm = document.querySelector("#loginform");
 const loginText = document.querySelector("#loginform h2");
-const loginInput = document.querySelector("#loginform input");
+const loginInput = document.querySelector("#logininput");
+const loginBtn = document.querySelector("#loginbtn");
 const greetingForm = document.querySelector("#mainpage");
 const greetingText = document.querySelector("#mainpage h2");
 
@@ -22,6 +23,14 @@ function paintGreetings(username){
   greetingForm.classList.remove(HIDDEN_CLASSNAME);
 }
 
+function btnMouseOver(){
+  loginBtn.style.backgroundColor = "slateblue";
+}
+
+function btnMouseOut(){
+  loginBtn.style.backgroundColor = "#333";
+}
+
 const savedUsername = localStorage.getItem(USERNAME_KEY);
 
 if(savedUsername === null) {
@@ -30,3 +39,6 @@ if(savedUsername === null) {
 } else {
   paintGreetings(savedUsername);
 }
+
+loginBtn.addEventListener("mouseover",btnMouseOver);
+loginBtn.addEventListener("mouseout",btnMouseOut);
