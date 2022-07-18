@@ -20,11 +20,12 @@
 }
 
 body {
+  width: 100vw;
+  height: 100vh;
   display: flex;
   justify-content: center;
+  text-align: center;
   background-color: #e6e6fa;
-  overflow-x: hidden;
-  overflow-y: hidden;
 }
 
 .hidden {
@@ -218,7 +219,7 @@ border-bottom: 1px solid #555;
 }
 
 #mainpage #mainpage_clock{
-  width: 265px;
+  width: 300px;
   text-align: center;
   font-size: 50px;
   font-weight: bold;
