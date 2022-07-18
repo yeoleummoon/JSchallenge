@@ -137,8 +137,8 @@ border-bottom: 1px solid #555;
 /* login page */
 
 #mainpage {
-  width: 1200px;
-  height: 800px;
+  width: 1000px;
+  height: 700px;
   background-color: white;
   border-radius: 20px;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
@@ -147,7 +147,7 @@ border-bottom: 1px solid #555;
 #mainpage #mainpage_menu {
   display: flex;
   align-items: center;
-  width: 1200px;
+  width: 1000px;
   height: 50px;
   background-color: #333;
   border-radius: 20px 20px 0 0;
@@ -184,8 +184,8 @@ border-bottom: 1px solid #555;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 470px;
-  height: 710px;
+  width: 330px;
+  height: 610px;
   padding-bottom: 40px;
   background-color: #debaff;
   border-radius: 0 0 0 20px;
@@ -202,8 +202,8 @@ border-bottom: 1px solid #555;
 }
 
 #mainpage #mainpage_profile img {
-  width: 320px;
-  height: 320px;
+  width: 270px;
+  height: 270px;
   border-radius: 50%;
   background-color: white;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
@@ -216,7 +216,7 @@ border-bottom: 1px solid #555;
   text-align: center;
   font-size: 30px;
   font-family: 'SBAggroL';
-  margin-top: 80px;
+  margin-top: 60px;
   color: #333;
 }
 
@@ -244,8 +244,8 @@ border-bottom: 1px solid #555;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 560px;
-  height: 710px;
+  width: 420px;
+  height: 610px;
   padding-bottom: 40px;
 }
 
@@ -299,15 +299,15 @@ border-bottom: 1px solid #555;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 370px;
-  height: 710px;
+  width: 250px;
+  height: 610px;
   padding-bottom: 40px;
   border-radius: 0 0 20px 0;
 }
 
 .mainpage_right #d-day{
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   border-radius: 20px;
   margin-top: 160px;
   box-shadow: 0 4px 6px lavender, 0 1px 3px lavender;
@@ -318,7 +318,7 @@ border-bottom: 1px solid #555;
   height: 70px;
   line-height: 75px;
   text-align: center;
-  font-size: 23px;
+  font-size: 20px;
   color: #333;
   font-weight: bold;
   font-family: 'SBAggroM';
@@ -327,10 +327,10 @@ border-bottom: 1px solid #555;
 }
 
 .mainpage_right #d-day #newyear {
-  font-size: 23px;
+  font-size: 20px;
   font-weight: bold;
   font-family: 'SBAggroM';
-  margin-top: 65px;
+  margin-top: 40px;
   text-align: center;
   color: slateblue;
 }
@@ -341,7 +341,7 @@ border-bottom: 1px solid #555;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 250px;
+  width: 200px;
   height: 120px;
   border-radius: 20px;
   margin-top: 30px;
