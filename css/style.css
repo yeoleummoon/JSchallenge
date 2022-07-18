@@ -35,7 +35,7 @@ body {
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  background-color: lavender;
+  background-image: url(../css/img/background3.jpg);
 }
 
 
@@ -305,11 +305,19 @@ border-bottom: 1px solid #555;
   border-radius: 0 0 20px 0;
 }
 
+.mainpage_right audio {
+  width: 202px;
+  margin-top: 110px;
+  filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%);
+  border-radius: 20px; 
+  box-shadow: 0 4px 6px lavender, 0 1px 3px lavender;
+}
+
 .mainpage_right #d-day{
   width: 200px;
   height: 200px;
   border-radius: 20px;
-  margin-top: 160px;
+  margin-top: 30px;
   box-shadow: 0 4px 6px lavender, 0 1px 3px lavender;
 }
 
