@@ -197,7 +197,7 @@ border-bottom: 1px solid #555;
   justify-content: center;
   width: 270px;
   height: 270px;
-  margin-top: 60px;
+  margin-top: 40px;
   border-radius: 50%;
 }
 
@@ -214,7 +214,7 @@ border-bottom: 1px solid #555;
 #mainpage .mainpage_left h2 {
   width: 360px;
   text-align: center;
-  font-size: 30px;
+  font-size: 28px;
   font-family: 'SBAggroL';
   margin-top: 60px;
   color: #333;
@@ -223,7 +223,7 @@ border-bottom: 1px solid #555;
 /* mainpage_loginname */
 
 #mainpage #mainpage_calender {
-  font-size: 27px;
+  font-size: 25px;
   margin-top: 17px;
   color: #333;
   font-family: 'SBAggroL';
@@ -232,7 +232,7 @@ border-bottom: 1px solid #555;
 #mainpage #mainpage_clock{
   width: 300px;
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
   color: slateblue;
   text-shadow: 3px 3px 3px lavender;
@@ -250,7 +250,7 @@ border-bottom: 1px solid #555;
 }
 
 .mainpage_center h2 {
-  font-size: 35px;
+  font-size: 30px;
   margin-top: 90px;
   font-family: 'SBAggroB';
   color: #333;
@@ -260,7 +260,7 @@ border-bottom: 1px solid #555;
 .mainpage_center #todo-form input {
   width: 350px;
   height: 40px;
-  font-size: 25px;
+  font-size: 23px;
   font-family: 'SBAggroL';
   background-color: transparent;
   outline: none;
@@ -272,7 +272,7 @@ border-bottom: 1px solid #555;
 
 .mainpage_center #todo-list li {
   margin-top: 20px;
-  font-size: 25px;
+  font-size: 23px;
   font-weight: bold;
   font-family: 'SBAggroL';
 }
