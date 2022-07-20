@@ -47,5 +47,30 @@ function pomoRest(){
     }
 }
 
+
 focusBtn.addEventListener("click",focusStart);
 restBtn.addEventListener("click",restStart);
+
+
+
+function focusBtnMouseOver(){
+  focusTimer.style.opacity = "100%";
+}
+function focusBtnMouseOut(){
+  focusTimer.style.opacity = "80%";
+}
+
+focusBtn.addEventListener("mouseover",focusBtnMouseOver);
+focusBtn.addEventListener("mouseout",focusBtnMouseOut);
+
+
+
+function restBtnMouseOver(){
+  restTimer.style.opacity = "100%";
+}
+function restBtnMouseOut(){
+  restTimer.style.opacity = "80%";
+}
+
+restBtn.addEventListener("mouseover",restBtnMouseOver);
+restBtn.addEventListener("mouseout",restBtnMouseOut);
