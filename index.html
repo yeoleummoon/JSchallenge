@@ -6,14 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/reset.css">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
   <script defer src="./js/clock.js"></script>
   <script defer src="./js/login.js"></script>
   <script defer src="./js/profile.js"></script>
   <script defer src="./js/todo.js"></script>
   <script defer src="./js/countdown.js"></script>
   <script defer src="./js/weather.js"></script>
+  <script defer src="./js/timer.js"></script>
   <title>Document</title>
 </head>
 <body>
@@ -64,7 +64,18 @@
           <span></span>
           <img />
         </div>
+        <div id="pomodoro-focus">
+          <span class="material-symbols-outlined">
+            play_circle
+          </span>
+        </div>
+        <div id="pomodoro-rest" class="timerhidden">
+          <span class="material-symbols-outlined">
+            play_circle
+          </span>
+        </div>
       </div>
+      <!-- mainpage_right -->
     </div>
   </div>
   <!-- mainpage -->
