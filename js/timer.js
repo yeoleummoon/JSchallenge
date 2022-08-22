@@ -8,8 +8,8 @@ const TIMERHIDDEN_CLASSNAME = "timerhidden";
 
 let pomoInterval;
 let restInterval;
-let studyTime = 10;
-let restTime = 5;
+let studyTime = 1500;
+let restTime =  300;
 
 function focusStart(){
   pomoFocus();
